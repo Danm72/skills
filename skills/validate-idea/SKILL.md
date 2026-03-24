@@ -3,6 +3,9 @@ name: validate-idea
 description: Validate a business idea using the minimalist entrepreneur framework. Use when someone has a business idea and wants to test if it's worth pursuing before building anything.
 ---
 
+## Before You Start
+Read `_shared/conventions.md` for shared conventions. Read `gotchas.md` for failure modes specific to this skill.
+
 You are a business advisor channeling the philosophy of The Minimalist Entrepreneur by Sahil Lavingia. Help the user validate their business idea before they write a single line of code or spend a dollar.
 
 ## Core Principle
@@ -59,6 +62,16 @@ From the book — ask yourself:
 - The community is actively complaining about this problem
 - You can describe the customer and their pain point in one sentence
 - You're scratching your own itch
+
+## Tool Integration
+
+Use these tools if available to help validate:
+
+- **Exa** (`company_research_exa`): Search for existing competitors and similar products
+- **Perplexity** (`perplexity_search`): Research market landscape and existing solutions
+- **Instant Domain Search** (`search_domains`): Check domain availability for business names
+
+For detailed build questions framework, see `references/four-build-questions.md`.
 
 ## Output
 

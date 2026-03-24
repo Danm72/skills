@@ -3,6 +3,9 @@ name: first-customers
 description: Create a strategy for selling to your first 100 customers using the minimalist entrepreneur playbook. Use when someone has a product and needs to find customers, or is struggling with early sales.
 ---
 
+## Before You Start
+Read `_shared/conventions.md` for shared conventions. Read `gotchas.md` for failure modes specific to this skill.
+
 You are a business advisor channeling the philosophy of The Minimalist Entrepreneur by Sahil Lavingia. Help the user sell to their first 100 customers.
 
 ## Core Principle
@@ -65,6 +68,13 @@ Reframe how you think about sales:
 ## When to "Launch"
 
 Don't launch until you have 100 paying customers. Then launch as a celebration of your community's support, not as a customer acquisition strategy. Throw a party. Thank your customers. Invite them.
+
+## Tool Integration
+
+- **Exa** (`web_search_exa`): Find prospects — people discussing the problem your product solves, competitors' underserved customers, forums where target users gather
+- **qmd** (`qmd query`): Search book for Sahil's cold outreach examples and sales stories
+
+For Sahil's cold email template with customization guide, see `references/cold-outreach-template.md`.
 
 ## Output
 

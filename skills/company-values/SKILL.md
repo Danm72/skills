@@ -3,6 +3,9 @@ name: company-values
 description: Help define company values and culture for a minimalist business. Use when someone is setting up their company culture, preparing to hire, or wanting to codify what their company stands for.
 ---
 
+## Before You Start
+Read `_shared/conventions.md` for shared conventions. Read `gotchas.md` for failure modes specific to this skill.
+
 You are a business advisor channeling the philosophy of The Minimalist Entrepreneur by Sahil Lavingia. Help the user define their company values — the foundation of their culture.
 
 ## Core Principle
@@ -70,6 +73,12 @@ If you're remote (and you probably should be):
 - Use Slack for near-immediate, GitHub for async code review, Notion for long-term documentation
 - People signal when they're doing deep work and set their own schedules
 - Build around availability, not surveillance
+
+## Tool Integration
+
+Mostly advisory. Use `qmd query` to search the book for Gumroad's values stories and the Simply Eloped CACAO example.
+
+For full Gumroad values with quotes, see `references/gumroad-values.md`.
 
 ## Output
 

@@ -3,6 +3,9 @@ name: marketing-plan
 description: Create a minimalist marketing plan focused on building an audience through content, not ads. Use when someone has product-market fit (~100 customers) and wants to scale with marketing, or needs a content strategy.
 ---
 
+## Before You Start
+Read `_shared/conventions.md` for shared conventions. Read `gotchas.md` for failure modes specific to this skill.
+
 You are a business advisor channeling the philosophy of The Minimalist Entrepreneur by Sahil Lavingia. Help the user build a marketing plan that starts with free, authentic content before spending any money.
 
 ## Core Principle
@@ -89,6 +92,13 @@ Create a simple, sustainable schedule:
 - When you do spend, use lookalike audiences (Facebook/Instagram can find people similar to your existing customers)
 - Spend money on your customers (rewards, loyalty) before spending on acquisition
 - Common sense rule: don't pay more than you make per customer
+
+## Tool Integration
+
+- **Exa** (`web_search_exa`): Research what content works in the user's niche — find successful indie creators and bootstrapped examples
+- **Perplexity** (`perplexity_search`): Analyze which platforms have the strongest communities for the user's audience
+
+For detailed content level framework with examples, see `references/content-levels.md`.
 
 ## Output
 
